@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
-gem 'pry','~> 0.14.2'
+gem 'pry', '~> 0.14.2'
 gem 'faker'
+gem 'artii'
 gem 'httparty'
