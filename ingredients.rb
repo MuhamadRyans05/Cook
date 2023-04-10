@@ -9,10 +9,13 @@ require_relative 'api_requester'
 
 a = Artii::Base.new :font => 'slant'
 puts a.asciify('Ingredients')
-puts "1. Search"
-puts "2. information"
-puts "3. autocompletion"
-print "silahkan pilih nomor = "
+puts "|===========Choice Ur Menu=============="
+puts "|         Pilih menu operasi"
+puts "| 1. Ingredients Search"
+puts "| 2. Ingredients information"
+puts "| 3. Ingredients autocompletion"
+puts "|===============RECIPE=================="
+print "| silahkan pilih nomor = "
 nomor = gets.chomp.to_s
 
 if nomor == "1"
