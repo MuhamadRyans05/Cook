@@ -78,7 +78,7 @@ include ApiRequester
         puts "==============END==============="
         end
      end
-     
+
  def subtitues_display(result3) 
   #  binding.pry
   result3['results'].each do |c|
@@ -96,11 +96,11 @@ obj1 = Menu_Items.new
 
 
 if nomor == "1"
-    obj1.search_menu_items("burger").inspect
+    obj1.search_menu_items(search_menu_items).inspect
 elsif nomor == "2"
   obj1.menuitem_information(menuitem_information).inspect
 elsif nomor == "3"
-     obj1.autocomplete_menu_item_search("chiken").inspect
+     obj1.autocomplete_menu_item_search(autocomplete_menu_item_searchcd).inspect
   else
     puts "ERROR"
 end
