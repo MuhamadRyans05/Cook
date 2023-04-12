@@ -8,8 +8,8 @@ require_relative 'api_requester'
 puts "|===========Choice Ur Menu=============="
 puts "|         Pilih menu operasi"
 puts "| 1.search menu items"
-puts "| 2.autocomplete menu item"
-puts "| 3.get menu item information"
+puts "| 2.get menu item information"
+puts "| 3.Auto complete menu item"
 puts "|===============MENU=================="
 print "| Pilih Menu = "
 nomor = gets.chomp
