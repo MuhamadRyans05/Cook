@@ -34,6 +34,7 @@ end
 
 
 class Recipes
+
 include ApiRequester
 
 
