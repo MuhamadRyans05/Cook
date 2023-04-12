@@ -12,7 +12,7 @@ puts "| 2.product_information"
 puts "| 3.product_autocomplete"
 print "| Pilih Menu = "
 nomor = gets.chomp
-# puts "|===============RECIPE=================="
+ puts "|===============RECIPE=================="
 
 
 if nomor == "1"
